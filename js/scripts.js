@@ -1,8 +1,14 @@
 function add(number1, number2) {
-  return number1 + number2;
+  let result = number1 + number2;
+  return result;
 }
 
-number1 = parseInt(prompt("Enter a number: "));
-number2 = parseInt(prompt("Enter another number: "));
+function divide(number1, number2) {
+  let result = number1 - number2;
+  return result;
+}
 
-alert(add(number1, number2));
+let number1 = parseFloat(prompt("Enter a number: "));
+let number2 = parseFloat(prompt("Enter another number: "));
+
+alert(divide(number1, number2));
