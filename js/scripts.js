@@ -18,5 +18,13 @@ function multiply(number1, number2) {
   return result;
 }
 
-let number1 = parseFloat(prompt("Enter a number: "));
-let number2 = parseFloat(prompt("Enter another number: "));
+
+$(document).ready(function() {
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    let number1 = parseFloat($("#add1").val());
+    let number2 = parseFloat($("#add2").val());
+    let result = add(number1, number2);
+    $("#output").text(result);
+  });
+});
