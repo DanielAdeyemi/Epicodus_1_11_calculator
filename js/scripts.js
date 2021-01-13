@@ -35,4 +35,20 @@ $(document).ready(function() {
     let result = substract(number1, number2);
     $("#outputSub").text(result);
   });
+
+  $("form#mult").submit(function(event) {
+    event.preventDefault();
+    let number1 = parseFloat($("#mult1").val());
+    let number2 = parseFloat($("#mult2").val());
+    let result = multiply(number1, number2);
+    $("#outputMult").text(result);
+  });
+
+  $("form#divide").submit(function(event) {
+    event.preventDefault();
+    let number1 = parseFloat($("#div1").val());
+    let number2 = parseFloat($("#div2").val());
+    let result = divide(number1, number2);
+    $("#outputDivide").text(result);
+  });
 });
