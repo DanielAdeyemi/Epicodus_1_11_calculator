@@ -25,6 +25,6 @@ $(document).ready(function() {
     let number1 = parseFloat($("#add1").val());
     let number2 = parseFloat($("#add2").val());
     let result = add(number1, number2);
-    $("#output").text(result);
+    $("#outputAdd").text(result);
   });
 });
