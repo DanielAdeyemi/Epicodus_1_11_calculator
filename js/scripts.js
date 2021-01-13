@@ -27,4 +27,12 @@ $(document).ready(function() {
     let result = add(number1, number2);
     $("#outputAdd").text(result);
   });
+
+  $("form#substract").submit(function(event) {
+    event.preventDefault();
+    let number1 = parseFloat($("#sub1").val());
+    let number2 = parseFloat($("#sub2").val());
+    let result = substract(number1, number2);
+    $("#outputSub").text(result);
+  });
 });
