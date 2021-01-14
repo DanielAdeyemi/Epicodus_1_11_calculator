@@ -1,10 +1,11 @@
 # Calculator Project
-#### *Epicodus Practice lesson #29 (Week 2) on 1/11/2021/ Update: practice lesson #48(Week 2) on 1/13/2021*
+#### *Epicodus Practice lesson #29 (Week 2) on 1/11/2021/ Update: practice lesson #48(Week 2) on 1/13/2021 | Second update: practice lesson # 58(Week 2) on 1/14/2021*
 ***By Daniel Adeyemi***
 
 ## *Description:*
 This project is the try to build calculator functions and run Business logic for it.   
 *Update 1/13/2021: added forms for user input and separate user output*
+*Update 2 on 1/14/2021: collapse forms into 1 and add event listener*
 
 ## *Setup instructions:*
 Clone repository by using this [URL](https://github.com/DanielAdeyemi/Epicodus_1_11_calculator.git) and run the ***index.html*** file in your terminal
