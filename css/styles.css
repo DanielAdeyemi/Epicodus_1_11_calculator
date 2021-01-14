@@ -1,0 +1,25 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  margin: 20px 0 20px 0;
+  text-align: center;
+  color: darkblue;
+}
+
+.btn {
+  margin: 10px 100px 10px 100px;
+  width: 200px;
+}
+
+#output {
+  border: 2px dotted purple;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: white;
+}

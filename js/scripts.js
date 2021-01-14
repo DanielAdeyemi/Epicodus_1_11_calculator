@@ -9,7 +9,7 @@ function subtract(number1, number2) {
 }
 
 function divide(number1, number2) {
-  let result = number1 / number2;
+  let result = (number1 / number2).toFixed(2);
   return result;
 }
 
