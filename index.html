@@ -21,59 +21,37 @@
             <label for="add1">First number:</label>
             <input type="text" id="add1" class="form-control">
           </div>
-          <div class="form-group">
-            <label for="add2">Second number:</label>
-            <input type="text" class="form-control" id="add2">
-          </div>
-          <button type="button submit" class="btn btn-primary" id="adding">Add!</button>
-        </form>
-        <div id="outputAdd"></div>
       </div>
       <div class="col-6">
-        <form id="substract">
-          <div class="form-group">
-            <label for="sub1">First number:</label>
-            <input type="text" id="sub1" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="sub2">Second number:</label>
-            <input type="text" class="form-control" id="sub2">
-          </div>
-          <button type="button submit" class="btn btn-primary" id="substracting">Substract!</button>
-        </form>
-        <div id="outputSub"></div>
+        <div class="form-group">
+          <label for="add2">Second number:</label>
+          <input type="text" class="form-control" id="add2">
+        </div>
       </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="operator" value="add" checked>
+        <label class="form-check-label" for="add">
+          Add
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          Second default radio
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+        <label class="form-check-label" for="exampleRadios3">
+          Disabled radio
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Go!</button>
+      </form>
+      <div id="outputAdd"></div>
     </div>
-
-    <div class="row">
-      <div class="col-6">
-        <form id="mult">
-          <div class="form-group">
-            <label for="mult1">First number:</label>
-            <input type="text" id="mult1" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="mult2">Second number:</label>
-            <input type="text" class="form-control" id="mult2">
-          </div>
-          <button type="button submit" class="btn btn-primary" id="mult">Multiply!</button>
-        </form>
-        <div id="outputMult"></div>
-      </div>
-      <div class="col-6">
-        <form id="divide">
-          <div class="form-group">
-            <label for="div1">First number:</label>
-            <input type="text" id="div1" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="div2">Second number:</label>
-            <input type="text" class="form-control" id="div2">
-          </div>
-          <button type="button submit" class="btn btn-primary" id="dividing">Divide!</button>
-        </form>
-        <div id="outputDivide"></div>
-      </div>
-    </div>
+  </div>
+  </div>
+</body>
 
 </html>
